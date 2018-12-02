@@ -114,7 +114,13 @@
     <ClCompile Include="queue_ver1.cpp" />
     <ClCompile Include="queue_ver2.cpp" />
     <ClCompile Include="queue_ver3.cpp" />
+    <ClCompile Include="queue_ver4.cpp" />
+    <ClCompile Include="queue_ver5.cpp" />
     <ClCompile Include="stack_ver1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="map_ver1.h" />
+    <ClInclude Include="queue_ver5.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

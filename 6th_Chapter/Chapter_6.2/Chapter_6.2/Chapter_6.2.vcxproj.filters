@@ -16,31 +16,42 @@
     <Filter Include="Stack">
       <UniqueIdentifier>{6dddf1ae-6fc1-4adc-8760-4efae9afe29a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Stack\version_1">
-      <UniqueIdentifier>{d49f842d-b1ed-4ad9-8e24-4dfbef661090}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Queue">
       <UniqueIdentifier>{ead3f527-ef0c-4230-815e-70e54a873650}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Queue\version_1">
-      <UniqueIdentifier>{8e1627bf-20d6-4c13-ac60-285a76174c18}</UniqueIdentifier>
+    <Filter Include="Map">
+      <UniqueIdentifier>{ace86f96-6b11-4102-8b51-49669af5a980}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stack_ver1.cpp">
-      <Filter>Stack\version_1</Filter>
-    </ClCompile>
-    <ClCompile Include="queue_ver1.cpp">
-      <Filter>Queue\version_1</Filter>
-    </ClCompile>
     <ClCompile Include="maincpp.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="queue_ver1.cpp">
+      <Filter>Queue</Filter>
+    </ClCompile>
     <ClCompile Include="queue_ver2.cpp">
-      <Filter>Queue\version_1</Filter>
+      <Filter>Queue</Filter>
     </ClCompile>
     <ClCompile Include="queue_ver3.cpp">
-      <Filter>Queue\version_1</Filter>
+      <Filter>Queue</Filter>
     </ClCompile>
+    <ClCompile Include="queue_ver4.cpp">
+      <Filter>Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="queue_ver5.cpp">
+      <Filter>Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="stack_ver1.cpp">
+      <Filter>Stack</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="queue_ver5.h">
+      <Filter>Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="map_ver1.h">
+      <Filter>Map</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
